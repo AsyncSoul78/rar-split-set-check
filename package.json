@@ -1,0 +1,13 @@
+{
+  "name": "rar-split-set-check",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/check.test.js",
+    "check": "node scripts/check-set.js",
+    "example": "node scripts/check-set.js examples/missing-part",
+    "make-examples": "node scripts/make-examples.js"
+  }
+}
